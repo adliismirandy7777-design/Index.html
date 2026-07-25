@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Artikel Premium - Dashboard Monetisasi</title>
+    <style>
+        /* Gaya Dasar & Reset */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; color: #333; line-height: 1.6; }
+        
+        /* Navigasi */
+        header { background-color: #0d6efd; color: white; padding: 15px 20px; text-align: center; font-weight: bold; font-size: 1.4rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        
+        /* Layout Utama (Responsif) */
+        .main-container { max-width: 1100px; margin: 25px auto; padding: 0 15px; display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+        
+        /* Konten Artikel */
+        .content-area { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .meta-info { font-size: 0.9rem; color: #666; margin-bottom: 15px; display: flex; gap: 15px; }
+        .article-body p { margin-bottom: 15px; text-align: justify; }
+
+        /* Sidebar */
+        .sidebar-area { display: flex; flex-direction: column; gap: 20px; }
+        .widget { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .widget h3 { margin-bottom: 12px; border-bottom: 2px solid #0d6efd; padding-bottom: 5px; font-size: 1.1rem; }
+        
+        /* Slot Iklan (Sinyal Visual untuk AdSense/CPM) */
+        .ad-slot { background: #f8f9fa; border: 2px dashed #ccc; color: #888; text-align: center; padding: 20px; font-size: 0.85rem; font-weight: bold; border-radius: 8px; margin: 15px 0; text-transform: uppercase; letter-spacing: 1px; }
+        .ad-banner { min-height: 100px; display: flex; align-items: center; justify-content: center; }
+        .ad-sidebar { min-height: 250px; display: flex; align-items: center; justify-content: center; }
+
+        /* Responsif untuk HP / Tablet */
+        @media (max-width: 768px) {
+            .main-container { grid-template-columns: 1fr; }
+            header { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>📰 InfoMedia Digital</header>
+
+    <div class="main-container">
+        <!-- Area Utama / Artikel -->
+        <main class="content-area">
+            <h1>Cara Mengoptimalkan Website Artikel Agar Menghasilkan Pendapatan CPM Tinggi</h1>
+            
+            <div class="meta-info">
+                <span>By: Penulis Kreatif</span>
+                <span>📅 25 Juli 2026</span>
+                <span>👁️ <span id="view-count">1,240</span> Views</span>
+            </div>
+
+            <!-- SLOT IKLAN 1: Atas Artikel (CPM Paling Tinggi) -->
+            <div class="ad-slot ad-banner">
+                <!-- TEMPEL KODE ADSENSE / SCRIPT CPM DI SINI -->
+                [Tempatkan Kode Iklan Banner Atas Di Sini]
+            </div>
+
+            <div class="article-body">
+                <p>Menghasilkan uang dari blog atau website kini semakin mudah dengan sistem periklanan berbasis tayangan (CPM). Setiap kali ada pembaca atau <em>reviewer</em> yang membuka halaman Anda, sistem iklan akan menghitungnya sebagai tayangan valid.</p>
+                
+                <p>Kunci utama kesuksesan skema ini adalah konsistensi dalam menyajikan topik yang sedang tren. Topik seputar finansial, teknologi, dan otomotif biasanya memiliki nilai iklan yang jauh lebih tinggi dibandingkan topik umum.</p>
+                
+                <!-- SLOT IKLAN 2: Tengah Artikel (Bagus untuk Klik) -->
+                <div class="ad-slot ad-banner">
+                    <!-- TEMPEL KODE ADSENSE / SCRIPT CPM DI SINI -->
+                    [Tempatkan Kode Iklan Banner Tengah Di Sini]
+                </div>
+
+                <p>Setelah mengumpulkan banyak tayangan iklan, saldo Anda di *dashboard* periklanan akan bertambah. Anda bisa menarik dana tersebut langsung ke rekening bank lokal di Indonesia secara otomatis setiap bulan.</p>
+            </div>
+        </main>
+
+        <!-- Area Samping / Sidebar -->
+        <aside class="sidebar-area">
+            <!-- Widget Iklan Samping -->
+            <div class="widget">
+                <h3>Sponsor</h3>
+                <div class="ad-slot ad-sidebar">
+                    <!-- TEMPEL KODE ADSENSE / SCRIPT CPM DI SINI -->
+                    [Tempatkan Kode Iklan Sidebar Di Sini]
+                </div>
+            </div>
+
+            <!-- Widget Informasi Rekening (Edukasi) -->
+            <div class="widget" style="background: #e8f0fe; border: 1px solid #b3d7ff;">
+                <h3 style="border-bottom-color: #0b5ed7;">Status Pencairan Uang</h3>
+                <p style="font-size: 0.9rem; color: #444;">Pendapatan iklan Anda akan otomatis masuk ke rekening bank Indonesia terdaftar (BCA, Mandiri, BRI, dll) jika sudah melewati ambang batas minimal penarikan.</p>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>
